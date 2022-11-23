@@ -11,6 +11,15 @@ import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
 import projImg4 from "../assets/img/project-img4.png";
 import projImg5 from "../assets/img/project-img5.png";
+import meter7 from "../assets/img/meter7.png";
+
+import * as React from 'react';
+import Card from '@mui/material/Card';
+import CardContent from '@mui/material/CardContent';
+import CardMedia from '@mui/material/CardMedia';
+import Typography from '@mui/material/Typography';
+import { Button, CardActionArea, CardActions } from '@mui/material';
+
 
 export const Projects = () => {
 
@@ -103,98 +112,70 @@ export const Projects = () => {
                         <TrackVisibility>
                             {({ isVisible }) =>
                                 <div className={isVisible ? "animate__animated animate__slideInUp" : ""}>
-                                    <h2>Projects</h2>
+                                    <h2>RESLUTS</h2>
                                 </div>}
                         </TrackVisibility>
                         <p>“Every project is an opportunity to learn, figure out problems and challenges, and invent and reinvent.”</p>
                         <Tab.Container id="projects-tabs" defaultActiveKey="first">
                             <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                                 <Nav.Item>
-                                    <Nav.Link eventKey="first">Full-Stack</Nav.Link>
+                                    <Nav.Link eventKey="first">1st Semester</Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item>
-                                    <Nav.Link eventKey="second">Front-End</Nav.Link>
+                                    <Nav.Link eventKey="second">2nd Semester</Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item>
-                                    <Nav.Link eventKey="third">UI/UX</Nav.Link>
+                                    <Nav.Link eventKey="third">3rd Semester</Nav.Link>
+                                </Nav.Item>
+                                <Nav.Item>
+                                    <Nav.Link eventKey="fourth">4th Semester</Nav.Link>
+                                </Nav.Item>
+                                <Nav.Item>
+                                    <Nav.Link eventKey="fifth">5th Semester</Nav.Link>
+                                </Nav.Item>
+                                <Nav.Item>
+                                    <Nav.Link eventKey="sixth">6th Semester</Nav.Link>
+                                </Nav.Item>
+                                <Nav.Item>
+                                    <Nav.Link eventKey="seventh">7th Semester</Nav.Link>
+                                </Nav.Item>
+                                <Nav.Item>
+                                    <Nav.Link eventKey="eighth">8th Semester</Nav.Link>
                                 </Nav.Item>
                             </Nav>
                             <Tab.Content>
                                 <Tab.Pane eventKey="first">
-                                    <a href="https://github.com/ChamilSachintha/Pharmacy-Management-System" target="_blank">
-                                        <Row>
-                                            {
-                                                Projects.map((project, index) => {
-                                                    return (
-                                                        <ProjectCard1
-                                                            key={index}
-                                                            {...project}
-                                                        />
-                                                    )
-                                                })
-                                            }
-                                        </Row>
-                                    </a>
+                                    <Card className="card" sx={{ maxWidth: 345 }}>
+                                        <CardActionArea>
+                                            <CardMedia
+                                                component="img"
+                                                height="140"
+                                                image= {meter7}
+                                            />
+                                        </CardActionArea>
+                                    </Card>
                                 </Tab.Pane>
                                 <Tab.Pane eventKey="second">
-                                    <a href="https://github.com/ChamilSachintha/personal-portfolio" target="_blank">
-                                        <Row>
-                                            {
-                                                Projects.map((project, index) => {
-                                                    return (
-                                                        <ProjectCard4
-                                                            key={index}
-                                                            {...project}
-                                                        />
-                                                    )
-                                                })
-                                            }
-                                        </Row>
-                                    </a>
+                                <Card className="card" sx={{ maxWidth: 345 }}>
+                                        <CardActionArea>
+                                            <CardMedia
+                                                component="img"
+                                                height="140"
+                                                image= {meter7}
+                                            />
+                                        </CardActionArea>
+                                    </Card>
                                 </Tab.Pane>
                                 <Tab.Pane eventKey="third">
-                                        <a href="https://www.figma.com/file/08BeH4Xv1yw2M819bzyFzS/Design-1?t=jZK3aOJNwAHjyEXN-1" target="_blank">
-                                            <Row>
-                                                {
-                                                    Projects.map((project, index) => {
-                                                        return (
-                                                            <ProjectCard2
-                                                                key={index}
-                                                                {...project}
-                                                            />
-                                                        )
-                                                    })
-                                                }
-                                            </Row>
-                                        </a>
-                                        <a href="https://www.figma.com/file/z43S0OGbQfysKm7UnrVPN7/Untitled?node-id=0%3A1&t=hZ2sHzDIn2XEXvpB-1" target="_blank">
-                                            <Row>
-                                                {
-                                                    Projects.map((project, index) => {
-                                                        return (
-                                                            <ProjectCard5
-                                                                key={index}
-                                                                {...project}
-                                                            />
-                                                        )
-                                                    })
-                                                }
-                                            </Row>
-                                        </a>
-                                        <a href="https://www.figma.com/file/IPv7RZ6prAhNObLnDxr76Z/UI%2FUX-Design-for-Academic-Calendar?node-id=0%3A1&t=jZK3aOJNwAHjyEXN-1" target="_blank">
-                                            <Row>
-                                                {
-                                                    Projects.map((project, index) => {
-                                                        return (
-                                                            <ProjectCard3
-                                                                key={index}
-                                                                {...project}
-                                                            />
-                                                        )
-                                                    })
-                                                }
-                                            </Row>
-                                        </a>
+                                <Card className="card" sx={{ maxWidth: 345 }}>
+                                        <CardActionArea>
+                                            <CardMedia
+                                                component="img"
+                                                height="140"
+                                                image= {meter7}
+                                            />
+                                        </CardActionArea>
+                                    </Card>
                                 </Tab.Pane>
                             </Tab.Content>
                         </Tab.Container>
