@@ -38,22 +38,42 @@ export const Skills = () => {
                     <TrackVisibility>
                         {({ isVisible }) => 
                             <div className={isVisible ? "animate__animated animate__slideInUp" : ""}>
-                        <h2>Skills</h2>
+                        <h2>GPA</h2>
                         </div> }
                         </TrackVisibility>
-                        <p>“When passion and skill work together, expect a masterpiece.”</p>
+                        <p>“Success usually comes to those who are too busy looking for it.”</p>
                         <Carousel responsive={responsive} infinite={true} className="skill-slider">
                             <div className="item">
                                 <img src={meter1} alt="Image" />
-                                <h5>Full-Stack Development</h5>
+                                <h5>7th Sem GPA</h5>
                             </div>
-                            <div className="item">
+                            <div className="item-main">
                                 <img src={meter2} alt="Image" />
-                                <h5>Front-End Development</h5>
+                                <h5>Overall GPA</h5>
                             </div>
                             <div className="item">
                                 <img src={meter3} alt="Image" />
-                                <h5>UI/UX Designing</h5>
+                                <h5>1st Sem GPA</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter3} alt="Image" />
+                                <h5>2nd Sem GPA</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter3} alt="Image" />
+                                <h5>3rd Sem GPA</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter3} alt="Image" />
+                                <h5>4th Sem GPA</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter3} alt="Image" />
+                                <h5>5th Sem GPA</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter3} alt="Image" />
+                                <h5>6th Sem GPA</h5>
                             </div>
                         </Carousel>
                     </div>
