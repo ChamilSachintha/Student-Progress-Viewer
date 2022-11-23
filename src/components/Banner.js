@@ -8,10 +8,10 @@ import TrackVisibility from 'react-on-screen';
 export const Banner = () => {
     const [loopNum, setLoopNum] = useState(0);
     const [isDeleting, setIsDeleting] = useState(false);
-    const toRotate = ["Full-Stack Developer", "Front-End Developer", "UI/UX Designer"];
+    const toRotate = ["Get your academic progress here                              "];
     const [text, setText] = useState('');
     const [delta, setDelta] = useState(300 - Math.random() * 100);
-    const period = 2000;
+    const period = 0;
 
     useEffect(() => {
         let ticker = setInterval(() => {
@@ -38,7 +38,7 @@ export const Banner = () => {
         } else if (isDeleting && updatedText === '') {
             setIsDeleting(false);
             setLoopNum(loopNum + 1);
-            setDelta(500);
+            setDelta(150);
         }
     }
 
@@ -50,12 +50,12 @@ export const Banner = () => {
                         <TrackVisibility>
                             {({ isVisible }) =>
                                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                                    <span className="tagline">Welcome to my Portfolio</span>
+                                    {/* <span className="tagline">Welcome to my Portfolio</span> */}
                                     <br></br>
                                     <br></br>
-                                    <h1>{`Hi I'm Chamil Sachintha `}<span className="wrap">{text}</span></h1>
-                                    <p>I am passionate about developing full-stack applications, front-end applications and designing UI/UX and have a good point of view on colors.</p>
-                                    <button onClick={() => console.log('connect')}>Let's connect<ArrowRightCircle size={25} /></button>
+                                    <h1><span className="wrap">{text}</span></h1>
+                                    {/* <p>I am passionate about developing full-stack applications, front-end applications and designing UI/UX and have a good point of view on colors.</p> */}
+                                    <button onClick={() => console.log('connect')}>Let's Start<ArrowRightCircle size={25} /></button>
                                 </div>}
                         </TrackVisibility>
                     </Col>
