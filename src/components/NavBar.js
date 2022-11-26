@@ -41,9 +41,9 @@ export const NavBar = () => {
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
                         <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>HOME</Nav.Link>
-                        <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>GPA</Nav.Link>
-                        <Nav.Link href="#project" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>RESULTS</Nav.Link>
-                        <Nav.Link href="#feedbacks" className={activeLink === 'feedbacks' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('feedbacks')}>ATTENDANCE</Nav.Link>
+                        <Nav.Link href="#gpa" className={activeLink === 'gpa' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('gpa')}>GPA</Nav.Link>
+                        <Nav.Link href="#results" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>RESULTS</Nav.Link>
+                        <Nav.Link href="#attendance" className={activeLink === 'feedbacks' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('feedbacks')}>ATTENDANCE</Nav.Link>
                     </Nav>
                     <span className="navbar-text">
                         {/* <div className="social-icon">
