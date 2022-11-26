@@ -13,7 +13,7 @@ import colorSharp from "../assets/img/color-sharp.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
-export const Skills = () => {
+export const GPA = () => {
     const responsive = {
         superLargeDesktop: {
           // the naming can be any, depends on you.

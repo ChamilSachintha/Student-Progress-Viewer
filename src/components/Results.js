@@ -12,6 +12,7 @@ import projImg3 from "../assets/img/project-img3.png";
 import projImg4 from "../assets/img/project-img4.png";
 import projImg5 from "../assets/img/project-img5.png";
 import meter7 from "../assets/img/meter7.png";
+import sem1 from "../assets/img/sem1.png";
 
 import * as React from 'react';
 import Card from '@mui/material/Card';
@@ -21,7 +22,7 @@ import Typography from '@mui/material/Typography';
 import { Button, CardActionArea, CardActions } from '@mui/material';
 
 
-export const Projects = () => {
+export const Results = () => {
 
     const Projects = [
         {
@@ -115,7 +116,7 @@ export const Projects = () => {
                                     <h2>RESLUTS</h2>
                                 </div>}
                         </TrackVisibility>
-                        <p>“Every project is an opportunity to learn, figure out problems and challenges, and invent and reinvent.”</p>
+                        {/* <p>“Every project is an opportunity to learn, figure out problems and challenges, and invent and reinvent.”</p> */}
                         <Tab.Container id="projects-tabs" defaultActiveKey="first">
                             <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                                 <Nav.Item>
@@ -150,32 +151,31 @@ export const Projects = () => {
                                             <CardMedia
                                                 component="img"
                                                 height="140"
-                                                image= {meter7}
+                                                image= {sem1}
                                             />
                                         </CardActionArea>
                                     </Card>
                                 </Tab.Pane>
                                 <Tab.Pane eventKey="second">
-                                <Card className="card" sx={{ maxWidth: 345 }}>
-                                        <CardActionArea>
-                                            <CardMedia
-                                                component="img"
-                                                height="140"
-                                                image= {meter7}
-                                            />
-                                        </CardActionArea>
-                                    </Card>
+                                <p>This section will be updated soon</p>
                                 </Tab.Pane>
                                 <Tab.Pane eventKey="third">
-                                <Card className="card" sx={{ maxWidth: 345 }}>
-                                        <CardActionArea>
-                                            <CardMedia
-                                                component="img"
-                                                height="140"
-                                                image= {meter7}
-                                            />
-                                        </CardActionArea>
-                                    </Card>
+                                <p>This section will be updated soon</p>
+                                </Tab.Pane>
+                                <Tab.Pane eventKey="fourth">
+                                <p>This section will be updated soon</p>
+                                </Tab.Pane>
+                                <Tab.Pane eventKey="fifth">
+                                <p>This section will be updated soon</p>
+                                </Tab.Pane>
+                                <Tab.Pane eventKey="sixth">
+                                <p>This section will be updated soon</p>
+                                </Tab.Pane>
+                                <Tab.Pane eventKey="seventh">
+                                <p>This section will be updated soon</p>
+                                </Tab.Pane>
+                                <Tab.Pane eventKey="eighth">
+                                <p>This section will be updated soon</p>
                                 </Tab.Pane>
                             </Tab.Content>
                         </Tab.Container>
