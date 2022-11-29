@@ -409,20 +409,20 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 
-/************ Projects Css ************/
-.project {
+/************ Results Css ************/
+.result {
   padding: 80px 0;
   position: relative;
   background-color: black;
 }
 
-.project h2 {
+.result h2 {
   font-size: 45px;
   font-weight: 700;
   text-align: center;
 }
 
-.project p {
+.result p {
   color: #B8B8B8;
   font-size: 18px;
   letter-spacing: 0.8px;
@@ -432,7 +432,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 56%;
 }
 
-.project .nav.nav-pills {
+.result .nav.nav-pills {
   width: 72%;
   margin: 0 auto;
   border-radius: 50px;
@@ -440,11 +440,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   overflow: hidden;
 }
 
-.project .nav.nav-pills .nav-item {
-  width: 33.33333%;
+.result .nav.nav-pills .nav-item {
+  width: 12%;
 }
 
-.project .nav.nav-pills .nav-link {
+.result .nav.nav-pills .nav-link {
   background-color: transparent;
   border-radius: 0;
   padding: 17px 0;
@@ -459,7 +459,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   z-index: 0;
 }
 
-.project .nav.nav-pills .nav-link::before {
+.result .nav.nav-pills .nav-link::before {
   content: "";
   position: absolute;
   width: 0;
@@ -471,25 +471,50 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   transition: 0.3s ease-in-out;
 }
 
-.project .nav.nav-pills .nav-link.active::before {
+.result .nav.nav-pills .nav-link.active::before {
   width: 100% !important;
 }
 
-.project .nav.nav-pills .nav-link.active {
+.result .nav.nav-pills .nav-link.active {
   border: 1px solid rgba(255, 255, 255, 1);
 }
 
-.nav-link#projects-tabs-tab-first {
+.nav-link#results-tabs-tab-first {
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 55px 0px 0px 55px;
 }
 
-.nav-link#projects-tabs-tab-second {
+.nav-link#results-tabs-tab-second {
   border-top: 1px solid rgba(255, 255, 255, 0.5);
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
 }
 
-.nav-link#projects-tabs-tab-third {
+.nav-link#results-tabs-tab-third {
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.nav-link#results-tabs-tab-fourth {
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.nav-link#results-tabs-tab-fifth {
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.nav-link#results-tabs-tab-sixth {
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.nav-link#results-tabs-tab-seventh {
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.nav-link#results-tabs-tab-eighth {
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 0 55px 55px 0;
 }
@@ -554,19 +579,19 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   z-index: -4;
 }
 
-.project a:link {
+.result a:link {
   color: rgb(255, 255, 255);
   text-decoration: none;
 }
 
 /* visited link */
-.project a:visited {
+.result a:visited {
   text-decoration: none;
   color: rgb(255, 255, 255);
 }
 
 /* mouse over link */
-.project a:hover {
+.result a:hover {
   color: rgb(255, 255, 255);
 }
 
