@@ -117,7 +117,7 @@ export const Results = () => {
                                 </div>}
                         </TrackVisibility>
                         {/* <p>“Every project is an opportunity to learn, figure out problems and challenges, and invent and reinvent.”</p> */}
-                        <Tab.Container id="result-tabs" defaultActiveKey="first">
+                        <Tab.Container id="results-tabs" defaultActiveKey="first">
                             <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                                 <Nav.Item>
                                     <Nav.Link eventKey="first">1st Sem</Nav.Link>
