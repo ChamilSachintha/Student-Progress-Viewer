@@ -24,7 +24,7 @@ import { Button, CardActionArea, CardActions } from '@mui/material';
 
 export const Results = () => {
 
-    const Projects = [
+    const Results = [
         {
             title1: "Pharmacy Management System",
             description1: "Full-stack application | HTML5, CSS3 & PHP",
@@ -106,7 +106,7 @@ export const Results = () => {
 
     ]
     return (
-        <section className="project" id="project">
+        <section className="result" id="result">
             <Container>
                 <Row>
                     <Col>
@@ -117,31 +117,31 @@ export const Results = () => {
                                 </div>}
                         </TrackVisibility>
                         {/* <p>“Every project is an opportunity to learn, figure out problems and challenges, and invent and reinvent.”</p> */}
-                        <Tab.Container id="projects-tabs" defaultActiveKey="first">
+                        <Tab.Container id="result-tabs" defaultActiveKey="first">
                             <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                                 <Nav.Item>
-                                    <Nav.Link eventKey="first">1st Semester</Nav.Link>
+                                    <Nav.Link eventKey="first">1st Sem</Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item>
-                                    <Nav.Link eventKey="second">2nd Semester</Nav.Link>
+                                    <Nav.Link eventKey="second">2nd Sem</Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item>
-                                    <Nav.Link eventKey="third">3rd Semester</Nav.Link>
+                                    <Nav.Link eventKey="third">3rd Sem</Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item>
-                                    <Nav.Link eventKey="fourth">4th Semester</Nav.Link>
+                                    <Nav.Link eventKey="fourth">4th Sem</Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item>
-                                    <Nav.Link eventKey="fifth">5th Semester</Nav.Link>
+                                    <Nav.Link eventKey="fifth">5th Sem</Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item>
-                                    <Nav.Link eventKey="sixth">6th Semester</Nav.Link>
+                                    <Nav.Link eventKey="sixth">6th Sem</Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item>
-                                    <Nav.Link eventKey="seventh">7th Semester</Nav.Link>
+                                    <Nav.Link eventKey="seventh">7th Sem</Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item>
-                                    <Nav.Link eventKey="eighth">8th Semester</Nav.Link>
+                                    <Nav.Link eventKey="eighth">8th Sem</Nav.Link>
                                 </Nav.Item>
                             </Nav>
                             <Tab.Content>
