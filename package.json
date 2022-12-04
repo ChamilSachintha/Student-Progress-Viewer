@@ -1,5 +1,5 @@
 {
-  "homepage": "http://chamilsachintha.github.io/Student-Progress-Viewer-for-Universities",
+  "homepage": "https://chamilsachintha.github.io/Student-Progress-Viewer",
   "name": "student-progress-viewer-for-universities",
   "version": "0.1.0",
   "private": true,
@@ -21,6 +21,7 @@
     "react": "^18.2.0",
     "react-bootstrap": "^2.5.0",
     "react-bootstrap-icons": "^1.9.1",
+    "react-circular-progressbar": "^2.1.0",
     "react-dom": "^18.2.0",
     "react-flagkit": "^2.0.4",
     "react-flagpack": "^1.0.0",
@@ -28,6 +29,7 @@
     "react-multi-carousel": "^2.8.2",
     "react-on-screen": "^2.1.1",
     "react-scripts": "5.0.1",
+    "victory": "^36.6.8",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
