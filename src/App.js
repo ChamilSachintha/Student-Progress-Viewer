@@ -4,7 +4,7 @@ import { Banner } from './components/Banner';
 import { GPA } from './components/GPA';
 import { Results } from './components/Results';
 import { Footer } from './components/Footer';
-// import { Feedbacks } from './components/Feedbacks';
+import { Attendance } from './components/Attendance';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -14,8 +14,8 @@ function App() {
       <Banner />
       <GPA />
       <Results />
-      {/* <Feedbacks /> 
-      <Footer /> */}
+      <Attendance />
+      <Footer /> 
     </div>
   );
 }
