@@ -15,7 +15,7 @@ function App() {
       <GPA />
       <Results />
       <Attendance />
-      <Footer /> 
+      {/* <Footer />  */}
     </div>
   );
 }
