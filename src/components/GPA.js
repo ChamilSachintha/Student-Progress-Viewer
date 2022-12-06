@@ -9,7 +9,7 @@ import meter5 from "../assets/img/meter5.png";
 import meter6 from "../assets/img/meter6.png";
 import meter7 from "../assets/img/meter7.png";
 import meter8 from "../assets/img/meter8.png";
-import colorSharp from "../assets/img/color-sharp.png";
+import colorSharp from "../assets/img/color-sharp3.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 import React from 'react';
@@ -86,7 +86,7 @@ export const GPA = () => {
                                         text={`3.2`}
                                         styles={buildStyles({
                                             textColor: "#B8B8B8",
-                                            pathColor: "#9f5dde",
+                                            pathColor: "#ffe570",
                                             trailColor: "#404040"
                                         })}
                                     />
@@ -112,7 +112,7 @@ export const GPA = () => {
                                         text={`3.5`}
                                         styles={buildStyles({
                                             textColor: "#B8B8B8",
-                                            pathColor: "#9f5dde",
+                                            pathColor: "#ffe570",
                                             trailColor: "#404040"
                                         })}
                                     />
@@ -125,7 +125,7 @@ export const GPA = () => {
                                         text={`2.8`}
                                         styles={buildStyles({
                                             textColor: "#B8B8B8",
-                                            pathColor: "#9f5dde",
+                                            pathColor: "#ffe570",
                                             trailColor: "#404040"
                                         })}
                                     />
@@ -138,7 +138,7 @@ export const GPA = () => {
                                         text={`3`}
                                         styles={buildStyles({
                                             textColor: "#B8B8B8",
-                                            pathColor: "#9f5dde",
+                                            pathColor: "#ffe570",
                                             trailColor: "#404040"
                                         })}
                                     />
@@ -151,7 +151,7 @@ export const GPA = () => {
                                         text={`3.6`}
                                         styles={buildStyles({
                                             textColor: "#B8B8B8",
-                                            pathColor: "#9f5dde",
+                                            pathColor: "#ffe570",
                                             trailColor: "#404040"
                                         })}
                                     />
@@ -164,7 +164,7 @@ export const GPA = () => {
                                         text={`3.2`}
                                         styles={buildStyles({
                                             textColor: "#B8B8B8",
-                                            pathColor: "#9f5dde",
+                                            pathColor: "#ffe570",
                                             trailColor: "#404040"
                                         })}
                                     />
@@ -177,7 +177,7 @@ export const GPA = () => {
                                         text={`3.4`}
                                         styles={buildStyles({
                                             textColor: "#B8B8B8",
-                                            pathColor: "#9f5dde",
+                                            pathColor: "#c58bfc",
                                             trailColor: "#404040"
                                         })}
                                     />
