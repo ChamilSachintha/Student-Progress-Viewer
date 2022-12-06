@@ -31,10 +31,17 @@ import "react-circular-progressbar/dist/styles.css";
 // Radial separators
 // import RadialSeparators from "./RadialSeparators";
 
-import {render} from 'react-dom';
+import { render } from 'react-dom';
 // import App from './App';
 
-const percentage = 66;
+const percentage1 = 87.5;
+const percentage2 = 70;
+const percentage3 = 75;
+const percentage4 = 90;
+const percentage5 = 80;
+const percentage6 = 85;
+const percentage7 = 80;
+const percentage8 = 81.1;
 
 export const GPA = () => {
     const responsive = {
@@ -68,49 +75,112 @@ export const GPA = () => {
                                     <div className={isVisible ? "animate__animated animate__slideInUp" : ""}>
                                         <h2>GPA</h2>
                                     </div>}
-                                
+
                             </TrackVisibility>
                             <p>“Success usually comes to those who are too busy looking for it.”</p>
                             <Carousel responsive={responsive} infinite={true} className="skill-slider">
-                                <div className="item">
+                                <div className="item progress-container">
                                     <CircularProgressbar
-                                        value={percentage}
+                                        value={percentage7}
                                         strokeWidth={18}
-                                        text={`${percentage}%`}
+                                        text={`3.2`}
                                         styles={buildStyles({
-                                            textColor: "red",
-                                            pathColor: "turquoise",
-                                            trailColor: "gold"
+                                            textColor: "#B8B8B8",
+                                            pathColor: "#9f5dde",
+                                            trailColor: "#404040"
                                         })}
                                     />
                                     <h5>7th Sem GPA</h5>
                                 </div>
-                                <div className="item-main">
-                                    <img src={meter8} alt="Image" />
+                                <div className="item-main progress-container">
+                                    <CircularProgressbar
+                                        value={percentage8}
+                                        strokeWidth={18}
+                                        text={`3.2`}
+                                        styles={buildStyles({
+                                            textColor: "#B8B8B8",
+                                            pathColor: "#7500e3",
+                                            trailColor: "#404040"
+                                        })}
+                                    />
                                     <h5>Overall GPA</h5>
                                 </div>
-                                <div className="item">
-                                    <img src={meter3} alt="Image" />
+                                <div className="item progress-container">
+                                    <CircularProgressbar
+                                        value={percentage1}
+                                        strokeWidth={18}
+                                        text={`3.5`}
+                                        styles={buildStyles({
+                                            textColor: "#B8B8B8",
+                                            pathColor: "#9f5dde",
+                                            trailColor: "#404040"
+                                        })}
+                                    />
                                     <h5>1st Sem GPA</h5>
                                 </div>
-                                <div className="item">
-                                    <img src={meter4} alt="Image" />
+                                <div className="item progress-container">
+                                    <CircularProgressbar
+                                        value={percentage2}
+                                        strokeWidth={18}
+                                        text={`2.8`}
+                                        styles={buildStyles({
+                                            textColor: "#B8B8B8",
+                                            pathColor: "#9f5dde",
+                                            trailColor: "#404040"
+                                        })}
+                                    />
                                     <h5>2nd Sem GPA</h5>
                                 </div>
-                                <div className="item">
-                                    <img src={meter5} alt="Image" />
+                                <div className="item progress-container">
+                                    <CircularProgressbar
+                                        value={percentage3}
+                                        strokeWidth={18}
+                                        text={`3`}
+                                        styles={buildStyles({
+                                            textColor: "#B8B8B8",
+                                            pathColor: "#9f5dde",
+                                            trailColor: "#404040"
+                                        })}
+                                    />
                                     <h5>3rd Sem GPA</h5>
                                 </div>
-                                <div className="item">
-                                    <img src={meter6} alt="Image" />
+                                <div className="item progress-container">
+                                    <CircularProgressbar
+                                        value={percentage4}
+                                        strokeWidth={18}
+                                        text={`3.6`}
+                                        styles={buildStyles({
+                                            textColor: "#B8B8B8",
+                                            pathColor: "#9f5dde",
+                                            trailColor: "#404040"
+                                        })}
+                                    />
                                     <h5>4th Sem GPA</h5>
                                 </div>
-                                <div className="item">
-                                    <img src={meter7} alt="Image" />
+                                <div className="item progress-container">
+                                    <CircularProgressbar
+                                        value={percentage5}
+                                        strokeWidth={18}
+                                        text={`3.2`}
+                                        styles={buildStyles({
+                                            textColor: "#B8B8B8",
+                                            pathColor: "#9f5dde",
+                                            trailColor: "#404040"
+                                        })}
+                                    />
                                     <h5>5th Sem GPA</h5>
                                 </div>
-                                <div className="item">
-                                    <img src={meter1} alt="Image" />
+                                <div className="item progress-container">
+                                    <CircularProgressbar
+                                        value={percentage6}
+                                        strokeWidth={18}
+                                        text={`3.4`}
+                                        styles={buildStyles({
+                                            textColor: "#B8B8B8",
+                                            pathColor: "#9f5dde",
+                                            trailColor: "#404040"
+                                        })}
+                                    />
                                     <h5>6th Sem GPA</h5>
                                 </div>
                             </Carousel>
