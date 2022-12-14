@@ -146,36 +146,69 @@ export const Results = () => {
                             </Nav>
                             <Tab.Content>
                                 <Tab.Pane eventKey="first">
-                                    <Card className="card" sx={{ maxWidth: 345 }}>
-                                        <CardActionArea>
-                                            <CardMedia
-                                                component="img"
-                                                height="140"
-                                                image= {sem1}
-                                            />
-                                        </CardActionArea>
-                                    </Card>
+                                    <main class="st_viewport">
+                                        <div class="st_wrap_table" data-table_id="0">
+                                            <div class="st_row">
+                                                <div class="st_column _rank">COURSE</div>
+                                                <div class="st_column _name">CREDIT</div>
+                                                <div class="st_column _surname">GRADE</div>
+                                            </div>
+                                            <div class="st_table">
+                                                <div class="st_row">
+                                                    <div class="st_column _rank">EC1020</div>
+                                                    <div class="st_column _name">3</div>
+                                                    <div class="st_column _surname">A</div>
+                                                </div>
+                                                <div class="st_row">
+                                                    <div class="st_column _rank">EC1020</div>
+                                                    <div class="st_column _name">3</div>
+                                                    <div class="st_column _surname">A</div>
+                                                </div>
+
+                                                    <div class="st_row">
+                                                        <div class="st_column _rank">EC1020</div>
+                                                        <div class="st_column _name">3</div>
+                                                        <div class="st_column _surname">A</div>
+                                                    </div>
+                                                    <div class="st_row">
+                                                        <div class="st_column _rank">EC1020</div>
+                                                        <div class="st_column _name">3</div>
+                                                        <div class="st_column _surname">A</div>
+                                                    </div>
+                                                    <div class="st_row">
+                                                        <div class="st_column _rank">EC1020</div>
+                                                        <div class="st_column _name">3</div>
+                                                        <div class="st_column _surname">A</div>
+                                                    </div>
+                                                    <div class="st_row">
+                                                        <div class="st_column _rank">EC1020</div>
+                                                        <div class="st_column _name">3</div>
+                                                        <div class="st_column _surname">A</div>
+                                                    </div>
+                                            </div>
+                                        </div>
+                                    </main>
                                 </Tab.Pane>
                                 <Tab.Pane eventKey="second">
-                                <p>This section will be updated soon</p>
+                                    <p>This section will be updated soon</p>
                                 </Tab.Pane>
                                 <Tab.Pane eventKey="third">
-                                <p>This section will be updated soon</p>
+                                    <p>This section will be updated soon</p>
                                 </Tab.Pane>
                                 <Tab.Pane eventKey="fourth">
-                                <p>This section will be updated soon</p>
+                                    <p>This section will be updated soon</p>
                                 </Tab.Pane>
                                 <Tab.Pane eventKey="fifth">
-                                <p>This section will be updated soon</p>
+                                    <p>This section will be updated soon</p>
                                 </Tab.Pane>
                                 <Tab.Pane eventKey="sixth">
-                                <p>This section will be updated soon</p>
+                                    <p>This section will be updated soon</p>
                                 </Tab.Pane>
                                 <Tab.Pane eventKey="seventh">
-                                <p>This section will be updated soon</p>
+                                    <p>This section will be updated soon</p>
                                 </Tab.Pane>
                                 <Tab.Pane eventKey="eighth">
-                                <p>This section will be updated </p>
+                                    <p>This section will be updated </p>
                                 </Tab.Pane>
                             </Tab.Content>
                         </Tab.Container>
