@@ -19,7 +19,14 @@ import {
 } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
 
-const percentage = 66;
+const percentage1 = 87.5;
+const percentage2 = 70;
+const percentage3 = 75;
+const percentage4 = 90;
+const percentage5 = 80;
+const percentage6 = 85;
+const percentage7 = 80;
+const percentage8 = 81.1;
 
 export const Attendance = () => {
     const responsive = {
@@ -54,75 +61,98 @@ export const Attendance = () => {
                                         <h2>ATTENDANCE</h2>
                                     </div>}
                             </TrackVisibility>
-                            <p>“Success usually comes to those who are too busy looking for it.”</p>
+                            <p>This attendance data is only related to your current semester only.</p>
                             <Carousel responsive={responsive} infinite={true} className="skill-slider">
-                                <div className="item progress-container">
-                                    <CircularProgressbar
-                                        value={percentage}
-                                        strokeWidth={18}
-                                        text={`3.7`}
-                                        styles={buildStyles({
-                                            textColor: "#B8B8B8",
-                                            pathColor: "#7500e3",
-                                            trailColor: "#404040"
-                                        })}
-                                    />
-                                    <h5>7th Sem GPA</h5>
-                                </div> 
                                 <div className="item-main progress-container">
                                     <CircularProgressbar
-                                        value={percentage}
+                                        value={percentage8}
                                         strokeWidth={18}
-                                        text={`3.7`}
+                                        text={`${percentage2}%`}
                                         styles={buildStyles({
                                             textColor: "#B8B8B8",
-                                            pathColor: "#7500e3",
+                                            pathColor: "#4289fc",
                                             trailColor: "#404040"
                                         })}
                                     />
-                                    <h5>Overall GPA</h5>
+                                    <h5>MC7020</h5>
                                 </div>
                                 <div className="item progress-container">
-                                <CircularProgressbar
-                                        value={percentage}
+                                    <CircularProgressbar
+                                        value={percentage1}
                                         strokeWidth={18}
-                                        text={`3.7`}
+                                        text={`${percentage3}%`}
                                         styles={buildStyles({
                                             textColor: "#B8B8B8",
-                                            pathColor: "#7500e3",
+                                            pathColor: "#4289fc",
                                             trailColor: "#404040"
                                         })}
                                     />
-                                    <h5>1st Sem GPA</h5>
-                                </div>
-                                <div className="item">
-                                    <img src={meter4} alt="Image" />
-                                    <h5>2nd Sem GPA</h5>
-                                </div>
-                                <div className="item">
-                                    <img src={meter5} alt="Image" />
-                                    <h5>3rd Sem GPA</h5>
-                                </div>
-                                <div className="item">
-                                    <img src={meter6} alt="Image" />
-                                    <h5>4th Sem GPA</h5>
-                                </div>
-                                <div className="item">
-                                    <img src={meter7} alt="Image" />
-                                    <h5>5th Sem GPA</h5>
+                                    <h5>EC7010</h5>
                                 </div>
                                 <div className="item progress-container">
-                                <CircularProgressbar
-                                        value={percentage}
+                                    <CircularProgressbar
+                                        value={percentage2}
                                         strokeWidth={18}
-                                        text={`3.7`}
+                                        text={`${percentage4}%`}
                                         styles={buildStyles({
                                             textColor: "#B8B8B8",
-                                            pathColor: "#7500e3",
+                                            pathColor: "#4289fc",
                                             trailColor: "#404040"
                                         })}
                                     />
-                                    <h5>6th Sem GPA</h5>
+                                    <h5>EC7050</h5>
+                                </div>
+                                <div className="item progress-container">
+                                    <CircularProgressbar
+                                        value={percentage3}
+                                        strokeWidth={18}
+                                        text={`${percentage5}%`}
+                                        styles={buildStyles({
+                                            textColor: "#B8B8B8",
+                                            pathColor: "#4289fc",
+                                            trailColor: "#404040"
+                                        })}
+                                    />
+                                    <h5>EC7060</h5>
+                                </div>
+                                <div className="item progress-container">
+                                    <CircularProgressbar
+                                        value={percentage4}
+                                        strokeWidth={18}
+                                        text={`${percentage6}%`}
+                                        styles={buildStyles({
+                                            textColor: "#B8B8B8",
+                                            pathColor: "#4289fc",
+                                            trailColor: "#404040"
+                                        })}
+                                    />
+                                    <h5>EC7020</h5>
+                                </div>
+                                <div className="item progress-container">
+                                    <CircularProgressbar
+                                        value={percentage5}
+                                        strokeWidth={18}
+                                        text={`${percentage7}%`}
+                                        styles={buildStyles({
+                                            textColor: "#B8B8B8",
+                                            pathColor: "#4289fc",
+                                            trailColor: "#404040"
+                                        })}
+                                    />
+                                    <h5>EC7040</h5>
+                                </div>
+                                <div className="item progress-container">
+                                    <CircularProgressbar
+                                        value={percentage6}
+                                        strokeWidth={18}
+                                        text={`${percentage8}%`}
+                                        styles={buildStyles({
+                                            textColor: "#B8B8B8",
+                                            pathColor: "#4289fc",
+                                            trailColor: "#404040"
+                                        })}
+                                    />
+                                    <h5>EC7090</h5>
                                 </div>
                             </Carousel>
                         </div>
