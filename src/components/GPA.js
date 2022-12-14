@@ -65,11 +65,11 @@ export const GPA = () => {
     };
 
     return (
-        <section className="skill" id="skills">
+        <section className="gpa" id="gpa">
             <Container>
                 <Row>
                     <Col>
-                        <div className="skill-bx">
+                        <div className="gpa-bx">
                             <TrackVisibility>
                                 {({ isVisible }) =>
                                     <div className={isVisible ? "animate__animated animate__slideInUp" : ""}>
@@ -78,7 +78,7 @@ export const GPA = () => {
 
                             </TrackVisibility>
                             <p>“Success usually comes to those who are too busy looking for it.”</p>
-                            <Carousel responsive={responsive} infinite={true} className="skill-slider">
+                            <Carousel responsive={responsive} infinite={true} className="gpa-slider">
                                 <div className="item progress-container">
                                     <CircularProgressbar
                                         value={percentage7}
