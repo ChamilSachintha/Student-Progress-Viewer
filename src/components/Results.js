@@ -175,7 +175,7 @@ export const Results = () => {
                                 <p>This section will be updated soon</p>
                                 </Tab.Pane>
                                 <Tab.Pane eventKey="eighth">
-                                <p>This section will be updated soon</p>
+                                <p>This section will be updated </p>
                                 </Tab.Pane>
                             </Tab.Content>
                         </Tab.Container>
