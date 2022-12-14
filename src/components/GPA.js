@@ -86,7 +86,7 @@ export const GPA = () => {
                                         text={`3.2`}
                                         styles={buildStyles({
                                             textColor: "#B8B8B8",
-                                            pathColor: "#ffe570",
+                                            pathColor: "#4289fc",
                                             trailColor: "#404040"
                                         })}
                                     />
@@ -99,7 +99,7 @@ export const GPA = () => {
                                         text={`3.2`}
                                         styles={buildStyles({
                                             textColor: "#B8B8B8",
-                                            pathColor: "#7500e3",
+                                            pathColor: "#4289fc",
                                             trailColor: "#404040"
                                         })}
                                     />
@@ -112,7 +112,7 @@ export const GPA = () => {
                                         text={`3.5`}
                                         styles={buildStyles({
                                             textColor: "#B8B8B8",
-                                            pathColor: "#ffe570",
+                                            pathColor: "#4289fc",
                                             trailColor: "#404040"
                                         })}
                                     />
@@ -125,7 +125,7 @@ export const GPA = () => {
                                         text={`2.8`}
                                         styles={buildStyles({
                                             textColor: "#B8B8B8",
-                                            pathColor: "#ffe570",
+                                            pathColor: "#4289fc",
                                             trailColor: "#404040"
                                         })}
                                     />
@@ -138,7 +138,7 @@ export const GPA = () => {
                                         text={`3`}
                                         styles={buildStyles({
                                             textColor: "#B8B8B8",
-                                            pathColor: "#ffe570",
+                                            pathColor: "#4289fc",
                                             trailColor: "#404040"
                                         })}
                                     />
@@ -151,7 +151,7 @@ export const GPA = () => {
                                         text={`3.6`}
                                         styles={buildStyles({
                                             textColor: "#B8B8B8",
-                                            pathColor: "#ffe570",
+                                            pathColor: "#4289fc",
                                             trailColor: "#404040"
                                         })}
                                     />
@@ -164,7 +164,7 @@ export const GPA = () => {
                                         text={`3.2`}
                                         styles={buildStyles({
                                             textColor: "#B8B8B8",
-                                            pathColor: "#ffe570",
+                                            pathColor: "#4289fc",
                                             trailColor: "#404040"
                                         })}
                                     />
@@ -177,7 +177,7 @@ export const GPA = () => {
                                         text={`3.4`}
                                         styles={buildStyles({
                                             textColor: "#B8B8B8",
-                                            pathColor: "#c58bfc",
+                                            pathColor: "#4289fc",
                                             trailColor: "#404040"
                                         })}
                                     />
