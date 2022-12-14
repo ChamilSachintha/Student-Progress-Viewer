@@ -50,11 +50,11 @@ export const Attendance = () => {
     };
 
     return (
-        <section className="skill" id="skills">
+        <section className="attendance" id="attendance">
             <Container>
                 <Row>
                     <Col>
-                        <div className="skill-bx">
+                        <div className="attendance-bx">
                             <TrackVisibility>
                                 {({ isVisible }) =>
                                     <div className={isVisible ? "animate__animated animate__slideInUp" : ""}>
@@ -62,7 +62,7 @@ export const Attendance = () => {
                                     </div>}
                             </TrackVisibility>
                             <p>This attendance data is only related to your current semester only.</p>
-                            <Carousel responsive={responsive} infinite={true} className="skill-slider">
+                            <Carousel responsive={responsive} infinite={true} className="attendance-slider">
                                 <div className="item-main progress-container">
                                     <CircularProgressbar
                                         value={percentage8}
