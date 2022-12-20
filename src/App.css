@@ -276,7 +276,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner {
   margin-top: 0;
   padding: 260px 0 100px 0;
-  background-image: url('./assets/img/banner-bg1.png');
+  background-image: url('./assets/img/banner-bg1.jpg');
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -364,11 +364,14 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .gpa-bx {
-  background: #2d2d2d;
+  /* background: #2d2d2d; */
   border-radius: 64px;
   text-align: center;
   padding: 100px 50px;
   margin-top: 82px;
+  background-image: url('./assets/img/gpa-bg.jpg');
+  background-size:cover;
+
 }
 
 .gpa h2 {
@@ -418,7 +421,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .result {
   padding: 80px 0;
   position: relative;
-  background-color: black;
+  background-image: url('./assets/img/results-bg.jpg');
+  background-size: cover;
 }
 
 .result h2 {
@@ -560,8 +564,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /* Footer CSS */
 .footer {
   background-image: url('./assets/img/footer-bg.png');
-  padding-top: 70px;
-  padding-bottom: 40px;
+  padding-top: 10px;
+  padding-bottom: 30px;
   margin-top: 40px;
   border-top: 1px solid #525252;
 }
@@ -626,11 +630,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .attendance-bx {
-  background: #2d2d2d;
   border-radius: 64px;
   text-align: center;
   padding: 100px 50px;
   margin-top: 82px;
+  background-image: url('./assets/img/attendance-bg.jpg');
+  background-size: cover;
 }
 
 .attendance h2 {
@@ -990,13 +995,7 @@ input[type="submit"]:hover {
   margin: 10px;
 } */
 
-.form1 {
-  margin-top: 15%;
-  align-content: center;
-  display: flex;
-  justify-content: center;
 
-}
 
 .app1 {
   font-family: sans-serif;
@@ -1020,14 +1019,14 @@ input[type="submit"] {
   margin-top: 10px;
   cursor: pointer;
   font-size: 15px;
-  background: #01d28e;
-  border: 1px solid #01d28e;
-  color: #fff;
+  background: #5c92ff;
+  border: 1px solid #5e94ff;
+  color: rgb(0, 0, 0);
   padding: 10px 20px;
 }
 
 input[type="submit"]:hover {
-  background: #6cf0c2;
+  background: #5f8cff;
 }
 
 .button-container1 {
@@ -1063,11 +1062,25 @@ input[type="submit"]:hover {
 }
 
 .banner-login {
-  margin-top: 0;
-  padding: 260px 0 100px 0;
-  background-image: url('./assets/img/banner-bg1.png');
-  background-position: top center;
+  padding: 430px 0 100px 0;
+  background-image: url('./assets/img/banner-login.png');
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
+.form1 {
+  margin-top: 15%;
+  display: flex;
+  justify-content: center;
+}
+
+.background-image {
+  position: fixed;
+  top: 0%;
+  bottom: 0%;
+  z-index: -4;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
