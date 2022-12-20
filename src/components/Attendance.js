@@ -9,7 +9,7 @@ import meter5 from "../assets/img/meter5.png";
 import meter6 from "../assets/img/meter6.png";
 import meter7 from "../assets/img/meter7.png";
 import meter8 from "../assets/img/meter8.png";
-import colorSharp from "../assets/img/color-sharp2.png";
+import colorSharp from "../assets/img/color-sharp3.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 import {
