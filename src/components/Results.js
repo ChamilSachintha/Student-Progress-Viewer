@@ -5,14 +5,9 @@ import { ProjectCard3 } from "./ProjectCards/ProjectCard3";
 import { ProjectCard4 } from "./ProjectCards/ProjectCard4";
 import { ProjectCard5 } from "./ProjectCards/ProjectCard5";
 import TrackVisibility from 'react-on-screen';
-import colorSharp2 from "../assets/img/color-sharp2.png";
-import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
-import projImg4 from "../assets/img/project-img4.png";
-import projImg5 from "../assets/img/project-img5.png";
+import colorSharp2 from "../assets/img/banner-bg1.png";
+
 import meter7 from "../assets/img/meter7.png";
-import sem1 from "../assets/img/sem1.png";
 
 import * as React from 'react';
 import Card from '@mui/material/Card';
@@ -24,87 +19,7 @@ import { Button, CardActionArea, CardActions } from '@mui/material';
 
 export const Results = () => {
 
-    const Results = [
-        {
-            title1: "Pharmacy Management System",
-            description1: "Full-stack application | HTML5, CSS3 & PHP",
-            imgUrl1: projImg1,
-        },
-        {
-            title1: "Pharmacy Management System",
-            description1: "Full-stack application | HTML5, CSS3 & PHP",
-            imgUrl1: projImg1,
-        },
-        {
-            title1: "Pharmacy Management System",
-            description1: "Full-stack application | HTML5, CSS3 & PHP",
-            imgUrl1: projImg1,
-        },
-        {
-            title2: "TODO App",
-            description2: "Figma UI/UX design for a mobile application",
-            imgUrl2: projImg2,
-        },
-        {
-            title2: "TODO App",
-            description2: "Figma UI/UX design for a mobile application",
-            imgUrl2: projImg2,
-        },
-        {
-            title2: "TODO App",
-            description2: "Figma UI/UX design for a mobile application",
-            imgUrl2: projImg2,
-        },
-
-        {
-            title3: "Academic Calendar for Universities",
-            description3: "Figma UI/UX design for a web application",
-            imgUrl3: projImg3,
-        },
-        {
-            title3: "Academic Calendar for Universities",
-            description3: "Figma UI/UX design for a web application",
-            imgUrl3: projImg3,
-        },
-        {
-            title3: "Academic Calendar for Universities",
-            description3: "Figma UI/UX design for a web application",
-            imgUrl3: projImg3,
-        },
-
-        {
-            title4: "Personal Portfolio Website",
-            description4: "Front-end application | React, React-bootstrap & Animate.css",
-            imgUrl4: projImg4,
-        },
-        {
-            title4: "Personal Portfolio Website",
-            description4: "Front-end application | React, React-bootstrap & Animate.css",
-            imgUrl4: projImg4,
-        },
-        {
-            title4: "Personal Portfolio Website",
-            description4: "Front-end application | React, React-bootstrap & Animate.css",
-            imgUrl4: projImg4,
-        },
-
-        {
-            title5: "Student Progress Viewer for Universities",
-            description5: "Figma UI/UX design for a web application",
-            imgUrl5: projImg5,
-        },
-        {
-            title5: "Student Progress Viewer for Universities",
-            description5: "Figma UI/UX design for a web application",
-            imgUrl5: projImg5,
-        },
-        {
-            title5: "Student Progress Viewer for Universities",
-            description5: "Figma UI/UX design for a web application",
-            imgUrl5: projImg5,
-        }
-
-    ]
+    
     return (
         <section className="result" id="result">
             <Container>
@@ -146,8 +61,9 @@ export const Results = () => {
                             </Nav>
                             <Tab.Content>
                                 <Tab.Pane eventKey="first">
-                                    <main class="st_viewport">
-                                        <div class="st_wrap_table" >
+                                    <main >
+                                        <div class="st_wrap_table" data-table_id="0">
+                                            
                                             <div class="st_table">
                                             <div class="st_row">
                                                 <div class="st_column _rank">COURSE</div>
