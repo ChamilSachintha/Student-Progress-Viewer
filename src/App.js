@@ -8,6 +8,7 @@ import { Attendance } from './components/Attendance';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React, { useState } from "react";
 import { AlignCenter } from 'react-bootstrap-icons';
+import banner from "./assets/img/banner-login.png";
 
 
 function App() {
@@ -63,7 +64,7 @@ function App() {
 
   // JSX code for login form
   const renderForm = (
-    <div className="form1 banner-login">
+    <div className="form1">
       <form onSubmit={handleSubmit}>
         <div className="input-container1">
           <label>Username </label>
@@ -79,6 +80,8 @@ function App() {
           <input type="submit" />
         </div>
       </form>
+      <img className="background-image" src={banner} alt="Image" />
+
     </div>
   );
 
