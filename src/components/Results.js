@@ -147,13 +147,13 @@ export const Results = () => {
                             <Tab.Content>
                                 <Tab.Pane eventKey="first">
                                     <main class="st_viewport">
-                                        <div class="st_wrap_table" data-table_id="0">
+                                        <div class="st_wrap_table" >
+                                            <div class="st_table">
                                             <div class="st_row">
                                                 <div class="st_column _rank">COURSE</div>
                                                 <div class="st_column _name">CREDIT</div>
                                                 <div class="st_column _surname">GRADE</div>
                                             </div>
-                                            <div class="st_table">
                                                 <div class="st_row">
                                                     <div class="st_column _rank">EC1020</div>
                                                     <div class="st_column _name">3</div>
@@ -165,26 +165,26 @@ export const Results = () => {
                                                     <div class="st_column _surname">A</div>
                                                 </div>
 
-                                                    <div class="st_row">
-                                                        <div class="st_column _rank">EC1020</div>
-                                                        <div class="st_column _name">3</div>
-                                                        <div class="st_column _surname">A</div>
-                                                    </div>
-                                                    <div class="st_row">
-                                                        <div class="st_column _rank">EC1020</div>
-                                                        <div class="st_column _name">3</div>
-                                                        <div class="st_column _surname">A</div>
-                                                    </div>
-                                                    <div class="st_row">
-                                                        <div class="st_column _rank">EC1020</div>
-                                                        <div class="st_column _name">3</div>
-                                                        <div class="st_column _surname">A</div>
-                                                    </div>
-                                                    <div class="st_row">
-                                                        <div class="st_column _rank">EC1020</div>
-                                                        <div class="st_column _name">3</div>
-                                                        <div class="st_column _surname">A</div>
-                                                    </div>
+                                                <div class="st_row">
+                                                    <div class="st_column _rank">EC1020</div>
+                                                    <div class="st_column _name">3</div>
+                                                    <div class="st_column _surname">A</div>
+                                                </div>
+                                                <div class="st_row">
+                                                    <div class="st_column _rank">EC1020</div>
+                                                    <div class="st_column _name">3</div>
+                                                    <div class="st_column _surname">A</div>
+                                                </div>
+                                                <div class="st_row">
+                                                    <div class="st_column _rank">EC1020</div>
+                                                    <div class="st_column _name">3</div>
+                                                    <div class="st_column _surname">A</div>
+                                                </div>
+                                                <div class="st_row">
+                                                    <div class="st_column _rank">EC1020</div>
+                                                    <div class="st_column _name">3</div>
+                                                    <div class="st_column _surname">A</div>
+                                                </div>
                                             </div>
                                         </div>
                                     </main>
