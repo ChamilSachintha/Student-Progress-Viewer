@@ -135,7 +135,7 @@ export const GPA = () => {
                                     <CircularProgressbar
                                         value={percentage3}
                                         strokeWidth={18}
-                                        text={`3`}
+                                        text={`3.0`}
                                         styles={buildStyles({
                                             textColor: "#ffff",
                                             pathColor: "#4289fc",
