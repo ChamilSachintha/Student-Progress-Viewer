@@ -55,7 +55,7 @@ export const Banner = () => {
                                     <br></br>
                                     <h1><span className="wrap">{text}</span></h1>
                                     {/* <p>I am passionate about developing full-stack applications, front-end applications and designing UI/UX and have a good point of view on colors.</p> */}
-                                    <button onClick={() => console.log('connect')}>Let's Start<ArrowRightCircle size={25} /></button>
+                                    {/* <button onClick={() => onUpdateActiveLink('gpa')}>Let's Start<ArrowRightCircle size={25} /></button> */}
                                 </div>}
                         </TrackVisibility>
                     </Col>
