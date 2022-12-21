@@ -270,6 +270,14 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-color: transparent;
 }
 
+.right {
+  position: absolute;
+  right: 0px;
+  width: 300px;
+  border: 3px solid #73AD21;
+  padding: 10px;
+}
+
 
 
 /* Banner CSS */
@@ -380,7 +388,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .gpa p {
-  color: #d4d4d4;
+  color: #ffffff;
   font-size: 18px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
@@ -644,7 +652,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .attendance p {
-  color: #d4d4d4;
+  color: #ffffff;
   font-size: 18px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
@@ -941,61 +949,6 @@ pre {
 
 
 /* Login CSS */
-/* 
-
-input[type="text"],
-input[type="password"] {
-  height: 25px;
-  border: 1px solid rgba(0, 0, 0, 0.2);
-}
-
-input[type="submit"] {
-  margin-top: 10px;
-  cursor: pointer;
-  font-size: 15px;
-  background: #01d28e;
-  border: 1px solid #01d28e;
-  color: #fff;
-  padding: 10px 20px;
-}
-
-input[type="submit"]:hover {
-  background: #6cf0c2;
-}
-
-.button-container {
-  display: flex;
-  justify-content: center;
-}
-
-.login-form {
-  background-color: white;
-  padding: 2rem;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.list-container {
-  display: flex;
-}
-
-.error {
-  color: red;
-  font-size: 12px;
-}
-
-.title {
-  font-size: 25px;
-  margin-bottom: 20px;
-}
-
-.input-container {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  margin: 10px;
-} */
-
-
 
 .app1 {
   font-family: sans-serif;
@@ -1011,8 +964,10 @@ input[type="submit"]:hover {
 
 input[type="text"],
 input[type="password"] {
-  height: 25px;
+  height: 35px;
   border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 30px;
+  padding: 20px;
 }
 
 input[type="submit"] {
@@ -1021,12 +976,14 @@ input[type="submit"] {
   font-size: 15px;
   background: #5c92ff;
   border: 1px solid #5e94ff;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   padding: 10px 20px;
+  border-radius: 30px;
+
 }
 
 input[type="submit"]:hover {
-  background: #5f8cff;
+  background: #0041e4;
 }
 
 .button-container1 {
@@ -1083,4 +1040,11 @@ input[type="submit"]:hover {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+
+.form1 h2 {
+  font-size: 45px;
+  font-weight: 700;
+  text-align: center;
 }
