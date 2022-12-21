@@ -85,7 +85,7 @@ export const GPA = () => {
                                         strokeWidth={18}
                                         text={`3.2`}
                                         styles={buildStyles({
-                                            textColor: "#B8B8B8",
+                                            textColor: "#ffff",
                                             pathColor: "#4289fc",
                                             trailColor: "#404040"
                                         })}
@@ -98,7 +98,7 @@ export const GPA = () => {
                                         strokeWidth={18}
                                         text={`3.2`}
                                         styles={buildStyles({
-                                            textColor: "#B8B8B8",
+                                            textColor: "#ffff",
                                             pathColor: "#4289fc",
                                             trailColor: "#404040"
                                         })}
@@ -111,7 +111,7 @@ export const GPA = () => {
                                         strokeWidth={18}
                                         text={`3.5`}
                                         styles={buildStyles({
-                                            textColor: "#B8B8B8",
+                                            textColor: "#ffff",
                                             pathColor: "#4289fc",
                                             trailColor: "#404040"
                                         })}
@@ -124,7 +124,7 @@ export const GPA = () => {
                                         strokeWidth={18}
                                         text={`2.8`}
                                         styles={buildStyles({
-                                            textColor: "#B8B8B8",
+                                            textColor: "#ffff",
                                             pathColor: "#4289fc",
                                             trailColor: "#404040"
                                         })}
@@ -137,7 +137,7 @@ export const GPA = () => {
                                         strokeWidth={18}
                                         text={`3`}
                                         styles={buildStyles({
-                                            textColor: "#B8B8B8",
+                                            textColor: "#ffff",
                                             pathColor: "#4289fc",
                                             trailColor: "#404040"
                                         })}
@@ -150,7 +150,7 @@ export const GPA = () => {
                                         strokeWidth={18}
                                         text={`3.6`}
                                         styles={buildStyles({
-                                            textColor: "#B8B8B8",
+                                            textColor: "#ffff",
                                             pathColor: "#4289fc",
                                             trailColor: "#404040"
                                         })}
@@ -163,7 +163,7 @@ export const GPA = () => {
                                         strokeWidth={18}
                                         text={`3.2`}
                                         styles={buildStyles({
-                                            textColor: "#B8B8B8",
+                                            textColor: "#ffff",
                                             pathColor: "#4289fc",
                                             trailColor: "#404040"
                                         })}
@@ -176,7 +176,7 @@ export const GPA = () => {
                                         strokeWidth={18}
                                         text={`3.4`}
                                         styles={buildStyles({
-                                            textColor: "#B8B8B8",
+                                            textColor: "#ffff",
                                             pathColor: "#4289fc",
                                             trailColor: "#404040"
                                         })}
