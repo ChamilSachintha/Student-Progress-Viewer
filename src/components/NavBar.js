@@ -5,6 +5,10 @@ import navIcon1 from '../assets/img/nav-icon1.svg';
 import navIcon2 from '../assets/img/nav-icon2.svg';
 import navIcon3 from '../assets/img/nav-icon3.svg';
 import navIcon4 from '../assets/img/nav-icon4.svg';
+import NavDropdown from 'react-bootstrap/NavDropdown';
+import Dropdown from 'react-bootstrap/Dropdown';
+
+
 
 export const NavBar = () => {
     const [activeLink, setActiveLink] = useState('home');
@@ -42,20 +46,36 @@ export const NavBar = () => {
                     <Nav className="me-auto">
                         <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>HOME</Nav.Link>
                         <Nav.Link href="#gpa" className={activeLink === 'gpa' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('gpa')}>GPA</Nav.Link>
-                        <Nav.Link href="#result" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>RESULTS</Nav.Link>
-                        <Nav.Link href="#attendance" className={activeLink === 'feedbacks' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('feedbacks')}>ATTENDANCE</Nav.Link>
+                        <Nav.Link href="#result" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('results')}>RESULTS</Nav.Link>
+                        <Nav.Link href="#attendance" className={activeLink === 'feedbacks' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('attendance')}>ATTENDANCE</Nav.Link>
+                        
                     </Nav>
-                    <span className="navbar-text">
-                        {/* <div className="social-icon">
+
+                    <Nav.Link href="./App.js" className="social-icon" onClick={() => onUpdateActiveLink('form1')}>Log out</Nav.Link>
+
+                    {/* <span className="navbar-text"> */}
+                    {/* <div className="social-icon">
                             <a href="https://www.linkedin.com/in/chamilsachintha96" target="_blank"><img src={navIcon1} alt="" /></a>
                             <a href="https://github.com/ChamilSachintha" target="_blank"><img src={navIcon4} alt="" /></a>
                             <a href="https://www.facebook.com/chamil.sachintha" target="_blank"><img src={navIcon2} alt="" /></a>
                             <a href="https://www.instagram.com/chamil_sachintha/" target="_blank"><img src={navIcon3} alt="" /></a>
                         </div> */}
-                        <a href="https://drive.google.com/file/d/1p8dqvrfGXud8TBt_ZcEt3CkgTJdo9KGH/view?usp=sharing" target="_blank">
-                        <button className="vvd" onClick={() => console.log('connect')}><span>WELCOME 2018/E/xxx</span></button>
+                    {/* <a href="https://drive.google.com/file/d/1p8dqvrfGXud8TBt_ZcEt3CkgTJdo9KGH/view?usp=sharing" target="_blank">
+                            <button className="vvd" onClick={() => console.log('connect')}><span>WELCOME 2018/E/xxx</span></button>
                         </a>
-                    </span>
+                        
+                    </span> */}
+
+
+                    {/* <NavDropdown
+                        className="social-icon" id="nav-dropdown"
+                        target="_blank"><img src={navIcon1} alt="" />
+                        <NavDropdown.Item eventKey="4.1">Action</NavDropdown.Item>
+                        <NavDropdown.Item eventKey="4.2">Another action</NavDropdown.Item>
+                        <NavDropdown.Item eventKey="4.3">Something else here</NavDropdown.Item>
+                        <NavDropdown.Divider />
+                        <NavDropdown.Item eventKey="4.4">Separated link</NavDropdown.Item>
+                    </NavDropdown> */}
                 </Navbar.Collapse>
             </Container>
         </Navbar >
