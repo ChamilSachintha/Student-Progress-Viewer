@@ -77,28 +77,28 @@ export const Results = () => {
                                                 <div class="st_row">
                                                     <div class="st_column _rank">EC1020</div>
                                                     <div class="st_column _name">3</div>
-                                                    <div class="st_column _surname">A</div>
+                                                    <div class="st_column _surname">B</div>
                                                 </div>
 
                                                 <div class="st_row">
                                                     <div class="st_column _rank">EC1020</div>
                                                     <div class="st_column _name">3</div>
-                                                    <div class="st_column _surname">A</div>
+                                                    <div class="st_column _surname">C+</div>
                                                 </div>
                                                 <div class="st_row">
                                                     <div class="st_column _rank">EC1020</div>
                                                     <div class="st_column _name">3</div>
-                                                    <div class="st_column _surname">A</div>
+                                                    <div class="st_column _surname">B-</div>
                                                 </div>
                                                 <div class="st_row">
                                                     <div class="st_column _rank">EC1020</div>
                                                     <div class="st_column _name">3</div>
-                                                    <div class="st_column _surname">A</div>
+                                                    <div class="st_column _surname">A-</div>
                                                 </div>
                                                 <div class="st_row">
                                                     <div class="st_column _rank">EC1020</div>
                                                     <div class="st_column _name">3</div>
-                                                    <div class="st_column _surname">A</div>
+                                                    <div class="st_column _surname">B+</div>
                                                 </div>
                                             </div>
                                         </div>
@@ -114,33 +114,33 @@ export const Results = () => {
                                                 <div class="st_column _surname">GRADE</div>
                                             </div>
                                                 <div class="st_row">
-                                                    <div class="st_column _rank">EC1020</div>
+                                                    <div class="st_column _rank">EC2020</div>
                                                     <div class="st_column _name">3</div>
                                                     <div class="st_column _surname">A</div>
                                                 </div>
                                                 <div class="st_row">
-                                                    <div class="st_column _rank">EC1020</div>
+                                                    <div class="st_column _rank">EC2020</div>
                                                     <div class="st_column _name">3</div>
                                                     <div class="st_column _surname">A</div>
                                                 </div>
 
                                                 <div class="st_row">
-                                                    <div class="st_column _rank">EC1020</div>
+                                                    <div class="st_column _rank">EC2020</div>
                                                     <div class="st_column _name">3</div>
                                                     <div class="st_column _surname">A</div>
                                                 </div>
                                                 <div class="st_row">
-                                                    <div class="st_column _rank">EC1020</div>
+                                                    <div class="st_column _rank">EC2020</div>
                                                     <div class="st_column _name">3</div>
                                                     <div class="st_column _surname">A</div>
                                                 </div>
                                                 <div class="st_row">
-                                                    <div class="st_column _rank">EC1020</div>
+                                                    <div class="st_column _rank">EC2020</div>
                                                     <div class="st_column _name">3</div>
                                                     <div class="st_column _surname">A</div>
                                                 </div>
                                                 <div class="st_row">
-                                                    <div class="st_column _rank">EC1020</div>
+                                                    <div class="st_column _rank">EC2020</div>
                                                     <div class="st_column _name">3</div>
                                                     <div class="st_column _surname">A</div>
                                                 </div>
@@ -158,33 +158,33 @@ export const Results = () => {
                                                 <div class="st_column _surname">GRADE</div>
                                             </div>
                                                 <div class="st_row">
-                                                    <div class="st_column _rank">EC1020</div>
+                                                    <div class="st_column _rank">EC3020</div>
                                                     <div class="st_column _name">3</div>
                                                     <div class="st_column _surname">A</div>
                                                 </div>
                                                 <div class="st_row">
-                                                    <div class="st_column _rank">EC1020</div>
+                                                    <div class="st_column _rank">EC3020</div>
                                                     <div class="st_column _name">3</div>
                                                     <div class="st_column _surname">A</div>
                                                 </div>
 
                                                 <div class="st_row">
-                                                    <div class="st_column _rank">EC1020</div>
+                                                    <div class="st_column _rank">EC3020</div>
                                                     <div class="st_column _name">3</div>
                                                     <div class="st_column _surname">A</div>
                                                 </div>
                                                 <div class="st_row">
-                                                    <div class="st_column _rank">EC1020</div>
+                                                    <div class="st_column _rank">EC3020</div>
                                                     <div class="st_column _name">3</div>
                                                     <div class="st_column _surname">A</div>
                                                 </div>
                                                 <div class="st_row">
-                                                    <div class="st_column _rank">EC1020</div>
+                                                    <div class="st_column _rank">EC3020</div>
                                                     <div class="st_column _name">3</div>
                                                     <div class="st_column _surname">A</div>
                                                 </div>
                                                 <div class="st_row">
-                                                    <div class="st_column _rank">EC1020</div>
+                                                    <div class="st_column _rank">EC3020</div>
                                                     <div class="st_column _name">3</div>
                                                     <div class="st_column _surname">A</div>
                                                 </div>
@@ -202,33 +202,33 @@ export const Results = () => {
                                                 <div class="st_column _surname">GRADE</div>
                                             </div>
                                                 <div class="st_row">
-                                                    <div class="st_column _rank">EC1020</div>
+                                                    <div class="st_column _rank">EC4020</div>
                                                     <div class="st_column _name">3</div>
                                                     <div class="st_column _surname">A</div>
                                                 </div>
                                                 <div class="st_row">
-                                                    <div class="st_column _rank">EC1020</div>
+                                                    <div class="st_column _rank">EC4020</div>
                                                     <div class="st_column _name">3</div>
                                                     <div class="st_column _surname">A</div>
                                                 </div>
 
                                                 <div class="st_row">
-                                                    <div class="st_column _rank">EC1020</div>
+                                                    <div class="st_column _rank">EC4020</div>
                                                     <div class="st_column _name">3</div>
                                                     <div class="st_column _surname">A</div>
                                                 </div>
                                                 <div class="st_row">
-                                                    <div class="st_column _rank">EC1020</div>
+                                                    <div class="st_column _rank">EC4020</div>
                                                     <div class="st_column _name">3</div>
                                                     <div class="st_column _surname">A</div>
                                                 </div>
                                                 <div class="st_row">
-                                                    <div class="st_column _rank">EC1020</div>
+                                                    <div class="st_column _rank">EC4020</div>
                                                     <div class="st_column _name">3</div>
                                                     <div class="st_column _surname">A</div>
                                                 </div>
                                                 <div class="st_row">
-                                                    <div class="st_column _rank">EC1020</div>
+                                                    <div class="st_column _rank">EC4020</div>
                                                     <div class="st_column _name">3</div>
                                                     <div class="st_column _surname">A</div>
                                                 </div>
@@ -246,33 +246,33 @@ export const Results = () => {
                                                 <div class="st_column _surname">GRADE</div>
                                             </div>
                                                 <div class="st_row">
-                                                    <div class="st_column _rank">EC1020</div>
+                                                    <div class="st_column _rank">EC5020</div>
                                                     <div class="st_column _name">3</div>
                                                     <div class="st_column _surname">A</div>
                                                 </div>
                                                 <div class="st_row">
-                                                    <div class="st_column _rank">EC1020</div>
+                                                    <div class="st_column _rank">EC5020</div>
                                                     <div class="st_column _name">3</div>
                                                     <div class="st_column _surname">A</div>
                                                 </div>
 
                                                 <div class="st_row">
-                                                    <div class="st_column _rank">EC1020</div>
+                                                    <div class="st_column _rank">EC5020</div>
                                                     <div class="st_column _name">3</div>
                                                     <div class="st_column _surname">A</div>
                                                 </div>
                                                 <div class="st_row">
-                                                    <div class="st_column _rank">EC1020</div>
+                                                    <div class="st_column _rank">EC5020</div>
                                                     <div class="st_column _name">3</div>
                                                     <div class="st_column _surname">A</div>
                                                 </div>
                                                 <div class="st_row">
-                                                    <div class="st_column _rank">EC1020</div>
+                                                    <div class="st_column _rank">EC5020</div>
                                                     <div class="st_column _name">3</div>
                                                     <div class="st_column _surname">A</div>
                                                 </div>
                                                 <div class="st_row">
-                                                    <div class="st_column _rank">EC1020</div>
+                                                    <div class="st_column _rank">EC5020</div>
                                                     <div class="st_column _name">3</div>
                                                     <div class="st_column _surname">A</div>
                                                 </div>
@@ -290,33 +290,33 @@ export const Results = () => {
                                                 <div class="st_column _surname">GRADE</div>
                                             </div>
                                                 <div class="st_row">
-                                                    <div class="st_column _rank">EC1020</div>
+                                                    <div class="st_column _rank">EC6020</div>
                                                     <div class="st_column _name">3</div>
                                                     <div class="st_column _surname">A</div>
                                                 </div>
                                                 <div class="st_row">
-                                                    <div class="st_column _rank">EC1020</div>
+                                                    <div class="st_column _rank">EC6020</div>
                                                     <div class="st_column _name">3</div>
                                                     <div class="st_column _surname">A</div>
                                                 </div>
 
                                                 <div class="st_row">
-                                                    <div class="st_column _rank">EC1020</div>
+                                                    <div class="st_column _rank">EC6020</div>
                                                     <div class="st_column _name">3</div>
                                                     <div class="st_column _surname">A</div>
                                                 </div>
                                                 <div class="st_row">
-                                                    <div class="st_column _rank">EC1020</div>
+                                                    <div class="st_column _rank">EC6020</div>
                                                     <div class="st_column _name">3</div>
                                                     <div class="st_column _surname">A</div>
                                                 </div>
                                                 <div class="st_row">
-                                                    <div class="st_column _rank">EC1020</div>
+                                                    <div class="st_column _rank">EC6020</div>
                                                     <div class="st_column _name">3</div>
                                                     <div class="st_column _surname">A</div>
                                                 </div>
                                                 <div class="st_row">
-                                                    <div class="st_column _rank">EC1020</div>
+                                                    <div class="st_column _rank">EC6020</div>
                                                     <div class="st_column _name">3</div>
                                                     <div class="st_column _surname">A</div>
                                                 </div>
@@ -334,33 +334,33 @@ export const Results = () => {
                                                 <div class="st_column _surname">GRADE</div>
                                             </div>
                                                 <div class="st_row">
-                                                    <div class="st_column _rank">EC1020</div>
+                                                    <div class="st_column _rank">EC7020</div>
                                                     <div class="st_column _name">3</div>
                                                     <div class="st_column _surname">A</div>
                                                 </div>
                                                 <div class="st_row">
-                                                    <div class="st_column _rank">EC1020</div>
+                                                    <div class="st_column _rank">EC7020</div>
                                                     <div class="st_column _name">3</div>
                                                     <div class="st_column _surname">A</div>
                                                 </div>
 
                                                 <div class="st_row">
-                                                    <div class="st_column _rank">EC1020</div>
+                                                    <div class="st_column _rank">EC7020</div>
                                                     <div class="st_column _name">3</div>
                                                     <div class="st_column _surname">A</div>
                                                 </div>
                                                 <div class="st_row">
-                                                    <div class="st_column _rank">EC1020</div>
+                                                    <div class="st_column _rank">EC7020</div>
                                                     <div class="st_column _name">3</div>
                                                     <div class="st_column _surname">A</div>
                                                 </div>
                                                 <div class="st_row">
-                                                    <div class="st_column _rank">EC1020</div>
+                                                    <div class="st_column _rank">EC7020</div>
                                                     <div class="st_column _name">3</div>
                                                     <div class="st_column _surname">A</div>
                                                 </div>
                                                 <div class="st_row">
-                                                    <div class="st_column _rank">EC1020</div>
+                                                    <div class="st_column _rank">EC7020</div>
                                                     <div class="st_column _name">3</div>
                                                     <div class="st_column _surname">A</div>
                                                 </div>
@@ -378,33 +378,12 @@ export const Results = () => {
                                                 <div class="st_column _surname">GRADE</div>
                                             </div>
                                                 <div class="st_row">
-                                                    <div class="st_column _rank">EC1020</div>
+                                                    <div class="st_column _rank">EC8020</div>
                                                     <div class="st_column _name">3</div>
                                                     <div class="st_column _surname">A</div>
                                                 </div>
                                                 <div class="st_row">
-                                                    <div class="st_column _rank">EC1020</div>
-                                                    <div class="st_column _name">3</div>
-                                                    <div class="st_column _surname">A</div>
-                                                </div>
-
-                                                <div class="st_row">
-                                                    <div class="st_column _rank">EC1020</div>
-                                                    <div class="st_column _name">3</div>
-                                                    <div class="st_column _surname">A</div>
-                                                </div>
-                                                <div class="st_row">
-                                                    <div class="st_column _rank">EC1020</div>
-                                                    <div class="st_column _name">3</div>
-                                                    <div class="st_column _surname">A</div>
-                                                </div>
-                                                <div class="st_row">
-                                                    <div class="st_column _rank">EC1020</div>
-                                                    <div class="st_column _name">3</div>
-                                                    <div class="st_column _surname">A</div>
-                                                </div>
-                                                <div class="st_row">
-                                                    <div class="st_column _rank">EC1020</div>
+                                                    <div class="st_column _rank">EC8020</div>
                                                     <div class="st_column _name">3</div>
                                                     <div class="st_column _surname">A</div>
                                                 </div>
