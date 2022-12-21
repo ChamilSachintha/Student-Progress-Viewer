@@ -19,12 +19,12 @@ function App() {
   // User Login info
   const database = [
     {
-      username: "user1",
-      password: "pass1"
+      username: "2018e093",
+      password: "123"
     },
     {
-      username: "user2",
-      password: "pass2"
+      username: "2018e104",
+      password: "abc"
     }
   ];
 
@@ -64,8 +64,13 @@ function App() {
 
   // JSX code for login form
   const renderForm = (
-    <div className="form1">
+    <div className="form1" id='form1'>
+      
       <form onSubmit={handleSubmit}>
+      <div>
+        <h3>Student Progress Viewer</h3>
+        <br></br>
+      </div>
         <div className="input-container1">
           <label>Username </label>
           <input type="text" name="uname" required />
