@@ -69,7 +69,7 @@ export const Attendance = () => {
                                         strokeWidth={18}
                                         text={`${percentage2}%`}
                                         styles={buildStyles({
-                                            textColor: "#B8B8B8",
+                                            textColor: "#ffff",
                                             pathColor: "#4289fc",
                                             trailColor: "#404040"
                                         })}
@@ -82,7 +82,7 @@ export const Attendance = () => {
                                         strokeWidth={18}
                                         text={`${percentage3}%`}
                                         styles={buildStyles({
-                                            textColor: "#B8B8B8",
+                                            textColor: "#ffff",
                                             pathColor: "#4289fc",
                                             trailColor: "#404040"
                                         })}
@@ -95,7 +95,7 @@ export const Attendance = () => {
                                         strokeWidth={18}
                                         text={`${percentage4}%`}
                                         styles={buildStyles({
-                                            textColor: "#B8B8B8",
+                                            textColor: "#ffff",
                                             pathColor: "#4289fc",
                                             trailColor: "#404040"
                                         })}
@@ -108,7 +108,7 @@ export const Attendance = () => {
                                         strokeWidth={18}
                                         text={`${percentage5}%`}
                                         styles={buildStyles({
-                                            textColor: "#B8B8B8",
+                                            textColor: "#ffff",
                                             pathColor: "#4289fc",
                                             trailColor: "#404040"
                                         })}
@@ -121,7 +121,7 @@ export const Attendance = () => {
                                         strokeWidth={18}
                                         text={`${percentage6}%`}
                                         styles={buildStyles({
-                                            textColor: "#B8B8B8",
+                                            textColor: "#ffff",
                                             pathColor: "#4289fc",
                                             trailColor: "#404040"
                                         })}
@@ -134,7 +134,7 @@ export const Attendance = () => {
                                         strokeWidth={18}
                                         text={`${percentage7}%`}
                                         styles={buildStyles({
-                                            textColor: "#B8B8B8",
+                                            textColor: "#ffff",
                                             pathColor: "#4289fc",
                                             trailColor: "#404040"
                                         })}
@@ -147,7 +147,7 @@ export const Attendance = () => {
                                         strokeWidth={18}
                                         text={`${percentage8}%`}
                                         styles={buildStyles({
-                                            textColor: "#B8B8B8",
+                                            textColor: "#ffff",
                                             pathColor: "#4289fc",
                                             trailColor: "#404040"
                                         })}
