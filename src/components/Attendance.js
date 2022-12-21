@@ -19,14 +19,14 @@ import {
 } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
 
-const percentage1 = 87.5;
+const percentage1 = 87;
 const percentage2 = 70;
 const percentage3 = 75;
 const percentage4 = 90;
 const percentage5 = 80;
 const percentage6 = 85;
 const percentage7 = 80;
-const percentage8 = 81.1;
+const percentage8 = 81;
 
 export const Attendance = () => {
     const responsive = {
@@ -61,13 +61,13 @@ export const Attendance = () => {
                                         <h2>ATTENDANCE</h2>
                                     </div>}
                             </TrackVisibility>
-                            <p>This attendance data is only related to your current semester only.</p>
+                            <p>This attendance data is only related to your current semester(7th semester) only.</p>
                             <Carousel responsive={responsive} infinite={true} className="attendance-slider">
                                 <div className="item-main progress-container">
                                     <CircularProgressbar
                                         value={percentage8}
                                         strokeWidth={18}
-                                        text={`${percentage2}%`}
+                                        text={`${percentage8}%`}
                                         styles={buildStyles({
                                             textColor: "#ffff",
                                             pathColor: "#4289fc",
@@ -80,7 +80,7 @@ export const Attendance = () => {
                                     <CircularProgressbar
                                         value={percentage1}
                                         strokeWidth={18}
-                                        text={`${percentage3}%`}
+                                        text={`${percentage1}%`}
                                         styles={buildStyles({
                                             textColor: "#ffff",
                                             pathColor: "#4289fc",
@@ -93,7 +93,7 @@ export const Attendance = () => {
                                     <CircularProgressbar
                                         value={percentage2}
                                         strokeWidth={18}
-                                        text={`${percentage4}%`}
+                                        text={`${percentage2}%`}
                                         styles={buildStyles({
                                             textColor: "#ffff",
                                             pathColor: "#4289fc",
@@ -106,7 +106,7 @@ export const Attendance = () => {
                                     <CircularProgressbar
                                         value={percentage3}
                                         strokeWidth={18}
-                                        text={`${percentage5}%`}
+                                        text={`${percentage3}%`}
                                         styles={buildStyles({
                                             textColor: "#ffff",
                                             pathColor: "#4289fc",
@@ -119,7 +119,7 @@ export const Attendance = () => {
                                     <CircularProgressbar
                                         value={percentage4}
                                         strokeWidth={18}
-                                        text={`${percentage6}%`}
+                                        text={`${percentage4}%`}
                                         styles={buildStyles({
                                             textColor: "#ffff",
                                             pathColor: "#4289fc",
@@ -132,7 +132,7 @@ export const Attendance = () => {
                                     <CircularProgressbar
                                         value={percentage5}
                                         strokeWidth={18}
-                                        text={`${percentage7}%`}
+                                        text={`${percentage5}%`}
                                         styles={buildStyles({
                                             textColor: "#ffff",
                                             pathColor: "#4289fc",
@@ -145,7 +145,7 @@ export const Attendance = () => {
                                     <CircularProgressbar
                                         value={percentage6}
                                         strokeWidth={18}
-                                        text={`${percentage8}%`}
+                                        text={`${percentage6}%`}
                                         styles={buildStyles({
                                             textColor: "#ffff",
                                             pathColor: "#4289fc",
