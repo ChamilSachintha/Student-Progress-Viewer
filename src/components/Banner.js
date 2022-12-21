@@ -2,69 +2,88 @@ import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { ArrowRightCircle } from "react-bootstrap-icons";
 import headerImg from "../assets/img/header-img.png";
-import 'animate.css';
-import TrackVisibility from 'react-on-screen';
+import "animate.css";
+import TrackVisibility from "react-on-screen";
 
-export const Banner = () => {
-    const [loopNum, setLoopNum] = useState(0);
-    const [isDeleting, setIsDeleting] = useState(false);
-    const toRotate = ["Get your academic progress here                              "];
-    const [text, setText] = useState('');
-    const [delta, setDelta] = useState(300 - Math.random() * 100);
-    const period = 0;
+export const Banner = (props) => {
+  const [loopNum, setLoopNum] = useState(0);
+  const [isDeleting, setIsDeleting] = useState(false);
+  const toRotate = [
+    "Get your academic progress here                              ",
+  ];
+  const [text, setText] = useState("");
+  const [delta, setDelta] = useState(300 - Math.random() * 100);
+  const period = 0;
 
-    useEffect(() => {
-        let ticker = setInterval(() => {
-            tick();
-        }, delta);
+  let name =
+    props.user.slice(0, 4) +
+    "/" +
+    props.user.slice(4, 5).toUpperCase() +
+    "/" +
+    props.user.slice(5, 8);
 
-        return () => { clearInterval(ticker) };
-    }, [text])
+  useEffect(() => {
+    let ticker = setInterval(() => {
+      tick();
+    }, delta);
 
-    const tick = () => {
-        let i = loopNum % toRotate.length;
-        let fullText = toRotate[i];
-        let updatedText = isDeleting ? fullText.substring(0, text.length - 1) : fullText.substring(0, text.length + 1);
+    return () => {
+      clearInterval(ticker);
+    };
+  }, [text]);
 
-        setText(updatedText);
+  const tick = () => {
+    let i = loopNum % toRotate.length;
+    let fullText = toRotate[i];
+    let updatedText = isDeleting
+      ? fullText.substring(0, text.length - 1)
+      : fullText.substring(0, text.length + 1);
 
-        if (isDeleting) {
-            setDelta(prevDelta => prevDelta / 2);
-        }
+    setText(updatedText);
 
-        if (!isDeleting && updatedText === fullText) {
-            setIsDeleting(true);
-            setDelta(period);
-        } else if (isDeleting && updatedText === '') {
-            setIsDeleting(false);
-            setLoopNum(loopNum + 1);
-            setDelta(150);
-        }
+    if (isDeleting) {
+      setDelta((prevDelta) => prevDelta / 2);
     }
 
-    return (
-        <section className="banner" id="home">
-            <Container>
-                <Row className="align-items-center">
-                    <Col xs={12} md={6} xl={7}>
-                        <TrackVisibility>
-                            {({ isVisible }) =>
-                                <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                                    <span className="tagline">Welcome 2018/E/104</span>
-                                    <br></br>
-                                    <br></br>
-                                    <h1><span className="wrap">{text}</span></h1>
-                                    {/* <p>I am passionate about developing full-stack applications, front-end applications and designing UI/UX and have a good point of view on colors.</p> */}
-                                    {/* <button onClick={() => onUpdateActiveLink('gpa')}>Let's Start<ArrowRightCircle size={25} /></button> */}
-                                </div>}
-                        </TrackVisibility>
-                    </Col>
-                    <Col xs={12} md={6} xl={5}>
-                        <img src={headerImg} alt="Header Img" />
-                    </Col>
-                </Row>
-            </Container>
+    if (!isDeleting && updatedText === fullText) {
+      setIsDeleting(true);
+      setDelta(period);
+    } else if (isDeleting && updatedText === "") {
+      setIsDeleting(false);
+      setLoopNum(loopNum + 1);
+      setDelta(150);
+    }
+  };
 
-        </section>
-    )
-}
+  return (
+    <section className="banner" id="home">
+      <Container>
+        <Row className="align-items-center">
+          <Col xs={12} md={6} xl={7}>
+            <TrackVisibility>
+              {({ isVisible }) => (
+                <div
+                  className={
+                    isVisible ? "animate__animated animate__fadeIn" : ""
+                  }
+                >
+                  <span className="tagline">Welcome {name}</span>
+                  <br></br>
+                  <br></br>
+                  <h1>
+                    <span className="wrap">{text}</span>
+                  </h1>
+                  {/* <p>I am passionate about developing full-stack applications, front-end applications and designing UI/UX and have a good point of view on colors.</p> */}
+                  {/* <button onClick={() => onUpdateActiveLink('gpa')}>Let's Start<ArrowRightCircle size={25} /></button> */}
+                </div>
+              )}
+            </TrackVisibility>
+          </Col>
+          <Col xs={12} md={6} xl={5}>
+            <img src={headerImg} alt="Header Img" />
+          </Col>
+        </Row>
+      </Container>
+    </section>
+  );
+};

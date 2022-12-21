@@ -1,36 +1,35 @@
-import './App.css';
-import { NavBar } from './components/NavBar';
-import { Banner } from './components/Banner';
-import { GPA } from './components/GPA';
-import { Results } from './components/Results';
-import { Footer } from './components/Footer';
-import { Attendance } from './components/Attendance';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import "./App.css";
+import { NavBar } from "./components/NavBar";
+import { Banner } from "./components/Banner";
+import { GPA } from "./components/GPA";
+import { Results } from "./components/Results";
+import { Footer } from "./components/Footer";
+import { Attendance } from "./components/Attendance";
+import "bootstrap/dist/css/bootstrap.min.css";
 import React, { useState } from "react";
-import { AlignCenter } from 'react-bootstrap-icons';
+import { AlignCenter } from "react-bootstrap-icons";
 import banner from "./assets/img/banner-login.png";
 
-
 function App() {
-
   const [errorMessages, setErrorMessages] = useState({});
   const [isSubmitted, setIsSubmitted] = useState(false);
+  const [loggedUser, setLoggedUser] = useState("");
 
   // User Login info
   const database = [
     {
       username: "2018e093",
-      password: "123"
+      password: "123",
     },
     {
       username: "2018e104",
-      password: "abc"
-    }
+      password: "abc",
+    },
   ];
 
   const errors = {
     uname: "invalid username",
-    pass: "invalid password"
+    pass: "invalid password",
   };
 
   const handleSubmit = (event) => {
@@ -49,6 +48,7 @@ function App() {
         setErrorMessages({ name: "pass", message: errors.pass });
       } else {
         setIsSubmitted(true);
+        setLoggedUser(userData.username);
       }
     } else {
       // Username not found
@@ -64,13 +64,12 @@ function App() {
 
   // JSX code for login form
   const renderForm = (
-    <div className="form1" id='form1'>
-      
+    <div className="form1" id="form1">
       <form onSubmit={handleSubmit}>
-      <div>
-        <h3>Student Progress Viewer</h3>
-        <br></br>
-      </div>
+        <div>
+          <h3>Student Progress Viewer</h3>
+          <br></br>
+        </div>
         <div className="input-container1">
           <label>Username </label>
           <input type="text" name="uname" required />
@@ -86,26 +85,27 @@ function App() {
         </div>
       </form>
       <img className="background-image" src={banner} alt="Image" />
-
     </div>
   );
 
   return (
     <div className="app">
       <div className="login-form">
-        {isSubmitted ? <div>
-          <NavBar />
-          <Banner />
-          <GPA />
-          <Results />
-          <Attendance />
-          <Footer />
-        </div> : renderForm}
+        {isSubmitted ? (
+          <div>
+            <NavBar />
+            <Banner user={loggedUser} />
+            <GPA />
+            <Results />
+            <Attendance />
+            <Footer />
+          </div>
+        ) : (
+          renderForm
+        )}
       </div>
     </div>
   );
-
- 
 }
 
 export default App;
