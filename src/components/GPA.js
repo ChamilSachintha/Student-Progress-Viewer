@@ -99,7 +99,7 @@ export const GPA = () => {
                                         text={`3.2`}
                                         styles={buildStyles({
                                             textColor: "#ffff",
-                                            pathColor: "#4289fc",
+                                            pathColor: "#ffffff",
                                             trailColor: "#404040"
                                         })}
                                     />
