@@ -1,20 +1,11 @@
 import { Col, Container, Row } from "react-bootstrap";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import meter1 from "../assets/img/meter1.png";
-import meter2 from "../assets/img/meter2.png";
-import meter3 from "../assets/img/meter3.png";
-import meter4 from "../assets/img/meter4.png";
-import meter5 from "../assets/img/meter5.png";
-import meter6 from "../assets/img/meter6.png";
-import meter7 from "../assets/img/meter7.png";
-import meter8 from "../assets/img/meter8.png";
 import colorSharp from "../assets/img/color-sharp3.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 import {
     CircularProgressbar,
-    CircularProgressbarWithChildren,
     buildStyles
 } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
@@ -25,7 +16,6 @@ const percentage3 = 75;
 const percentage4 = 90;
 const percentage5 = 80;
 const percentage6 = 85;
-const percentage7 = 80;
 const percentage8 = 81;
 
 export const Attendance = () => {
