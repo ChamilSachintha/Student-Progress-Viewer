@@ -50,7 +50,7 @@ export const Banner = () => {
                         <TrackVisibility>
                             {({ isVisible }) =>
                                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                                    <span className="tagline">Welcome 2018/E/104</span>
+                                    <span className="tagline">Welcome</span>
                                     <br></br>
                                     <br></br>
                                     <h1><span className="wrap">{text}</span></h1>
