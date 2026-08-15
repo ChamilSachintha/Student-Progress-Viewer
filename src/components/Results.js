@@ -5,7 +5,7 @@ import { ProjectCard3 } from "./ProjectCards/ProjectCard3";
 import { ProjectCard4 } from "./ProjectCards/ProjectCard4";
 import { ProjectCard5 } from "./ProjectCards/ProjectCard5";
 import TrackVisibility from 'react-on-screen';
-import colorSharp2 from "../assets/img/banner-bg1.webp";
+import colorSharp2 from "../assets/img/banner-bg1-decor.webp";
 
 import meter7 from "../assets/img/meter7.webp";
 
