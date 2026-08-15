@@ -1076,4 +1076,116 @@ input[type="submit"]:hover {
 
 .footer p a:hover {
   color: #ffffff;
+}
+
+
+/* --- Website Responsiveness Enhancements --- */
+
+/* Tablet & Smaller Screens */
+@media (max-width: 991px) {
+  nav.navbar a.navbar-brand {
+    width: auto;
+  }
+  
+  nav.navbar .navbar-nav {
+    padding-top: 15px;
+    align-items: center;
+  }
+  
+  nav.navbar .navbar-nav .nav-link.navbar-link {
+    padding: 12px 0;
+    font-size: 16px;
+    text-align: center;
+    width: 100%;
+  }
+
+  nav.navbar .navbar-collapse .social-icon {
+    margin-left: 0;
+    margin-top: 15px;
+    display: block;
+    text-align: center;
+  }
+
+  .result .nav.nav-pills {
+    width: 95% !important;
+    flex-wrap: wrap !important;
+    border-radius: 20px !important;
+  }
+
+  .result .nav.nav-pills .nav-item {
+    width: 25% !important; /* 4 columns on tablets */
+  }
+  
+  .result p {
+    width: 80% !important;
+  }
+}
+
+/* Mobile & Extra-Small Screens */
+@media (max-width: 767px) {
+  .banner {
+    padding: 130px 0 50px 0 !important;
+  }
+
+  .banner h1 {
+    font-size: 34px !important;
+    line-height: 1.2 !important;
+  }
+
+  .banner .tagline {
+    font-size: 16px !important;
+  }
+
+  .banner img {
+    margin-top: 30px;
+    width: 60% !important;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .gpa-bx, .attendance-bx {
+    padding: 40px 15px !important;
+    border-radius: 30px !important;
+    margin-top: 40px !important;
+  }
+
+  .gpa h2, .attendance h2 {
+    font-size: 28px !important;
+  }
+
+  .gpa p, .attendance p {
+    font-size: 15px !important;
+    margin: 10px 0 35px 0 !important;
+  }
+
+  .gpa-slider, .attendance-slider {
+    width: 95% !important;
+  }
+
+  .progress-container {
+    width: 85% !important;
+  }
+
+  .result h2 {
+    font-size: 28px !important;
+  }
+
+  .result p {
+    width: 95% !important;
+    font-size: 15px !important;
+  }
+
+  .result .nav.nav-pills .nav-item {
+    width: 50% !important; /* 2 columns on mobile */
+  }
+
+  .result .nav.nav-pills .nav-link {
+    padding: 12px 0 !important;
+    font-size: 14px !important;
+  }
+
+  .table-wrapper {
+    margin: 10px 10px 30px !important;
+  }
 }
