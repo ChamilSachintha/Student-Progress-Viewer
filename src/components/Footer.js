@@ -22,7 +22,7 @@ export const Footer = () => {
                             <a href="https://www.facebook.com/chamil.sachintha" target="_blank"><img src={navIcon2} alt="" /></a>
                             <a href="https://www.instagram.com/chamil_sachintha/" target="_blank"><img src={navIcon3} alt="" /></a>
                         </div> */}
-                        <p>Copyright 2022. All Rights Reserved.</p>
+                        <p>© 2022 <a href="https://chamil-sachintha.vercel.app/" target="_blank" rel="noopener noreferrer">Chamil Sachintha</a>. All Rights Reserved.</p>
                     </Col>  
                 </Row>
             </Container>

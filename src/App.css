@@ -1067,3 +1067,13 @@ input[type="submit"]:hover {
 .logo-img {
   width: 120px;
 }
+
+.footer p a {
+  color: inherit;
+  text-decoration: underline;
+  transition: color 0.3s ease;
+}
+
+.footer p a:hover {
+  color: #ffffff;
+}
